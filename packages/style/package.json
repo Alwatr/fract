@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
-    "directory": "ui/style"
+    "url": "https://github.com/AliMD/fract",
+    "directory": "packages/style"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/ui/style#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/packages/style#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr/issues"
+    "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
     "tslib": "^2.6.2"

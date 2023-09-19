@@ -12,8 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
-    "directory": "ui/playground"
+    "url": "https://github.com/AliMD/fract",
+    "directory": "packages/playground"
   },
   "browserslist": "> 1.5%, not dead",
   "postcss": {

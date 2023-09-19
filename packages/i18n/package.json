@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
+    "url": "https://github.com/AliMD/fract",
     "directory": "core/i18n"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/core/i18n#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/core/i18n#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr/issues"
+    "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
     "@alwatr/logger": "^1.0.0",

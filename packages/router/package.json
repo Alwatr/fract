@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
+    "url": "https://github.com/AliMD/fract",
     "directory": "core/router2"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/core/router2#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/core/router2#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr/issues"
+    "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
     "@alwatr/logger": "^1.0.0",

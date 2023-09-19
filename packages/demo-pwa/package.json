@@ -13,8 +13,8 @@
   "browserslist": "> 1.5%, not dead",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
-    "directory": "ui/demo-pwa"
+    "url": "https://github.com/AliMD/fract",
+    "directory": "packages/demo-pwa"
   },
   "scripts": {
     "b": "yarn build-dev",
