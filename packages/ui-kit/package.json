@@ -1,6 +1,6 @@
 {
-  "name": "@alwatr/ui-kit2",
-  "version": "1.0.0",
+  "name": "@alwatr/ui-kit",
+  "version": "0.0.0",
   "description": "Alwatr UI Elements Kit",
   "keywords": [
     "element",
@@ -21,7 +21,6 @@
   "files": [
     "**/**/*.{d.ts.map,d.ts,js.map,js,md,css}"
   ],
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
@@ -35,8 +34,8 @@
     "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
-    "@alwatr/i18n2": "^1.0.0",
-    "@alwatr/signal2": "^1.0.0",
+    "@alwatr/i18n": "^2.0.0-beta",
+    "@alwatr/signal": "^2.0.0",
     "@alwatr/util": "^1.0.0",
     "tslib": "^2.6.2"
   }

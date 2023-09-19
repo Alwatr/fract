@@ -1,6 +1,6 @@
 {
-  "name": "@alwatr/router2",
-  "version": "1.0.0",
+  "name": "@alwatr/router",
+  "version": "2.0.0-beta",
   "description": "Elegant powerful router (fundamental advance browser page routing) based on the simplicity of the signals written in tiny TypeScript module.",
   "keywords": [
     "router",
@@ -15,7 +15,6 @@
   "types": "index.d.ts",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "license": "MIT",
-  "private": "true",
   "files": [
     "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
   ],
@@ -34,7 +33,7 @@
   "dependencies": {
     "@alwatr/logger": "^1.0.0",
     "@alwatr/math": "^1.0.0",
-    "@alwatr/signal2": "^1.0.0",
+    "@alwatr/signal": "^2.0.0",
     "tslib": "^2.6.2"
   }
 }
