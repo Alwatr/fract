@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
-    "directory": "ui/font"
+    "url": "https://github.com/AliMD/fract",
+    "directory": "packages/font"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/ui/font#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/packages/font#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr/issues"
+    "url": "https://github.com/AliMD/fract/issues"
   }
 }

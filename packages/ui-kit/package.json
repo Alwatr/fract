@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/alwatr",
-    "directory": "ui/ui-kit2"
+    "url": "https://github.com/AliMD/fract",
+    "directory": "packages/ui-kit2"
   },
-  "homepage": "https://github.com/AliMD/alwatr/tree/main/ui/ui-kit2#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/packages/ui-kit2#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/alwatr/issues"
+    "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
     "@alwatr/i18n2": "^1.0.0",
