@@ -65,7 +65,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **core/router:** preventDefault on svg link click ([e35e935](https://github.com/AliMD/fract/commit/e35e9351857d5bcb5128afbc87eb62dd11da865e))
+* **packages/router:** preventDefault on svg link click ([e35e935](https://github.com/AliMD/fract/commit/e35e9351857d5bcb5128afbc87eb62dd11da865e))
 
 # 0.26.0 (2022-12-22)
 
@@ -132,7 +132,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **core/router:** preventDefault on svg link click ([e35e935](https://github.com/AliMD/fract/commit/e35e9351857d5bcb5128afbc87eb62dd11da865e))
+- **packages/router:** preventDefault on svg link click ([e35e935](https://github.com/AliMD/fract/commit/e35e9351857d5bcb5128afbc87eb62dd11da865e))
 
 # [0.26.0](https://github.com/AliMD/fract/compare/v0.25.0...v0.26.0) (2022-12-22)
 

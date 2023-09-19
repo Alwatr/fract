@@ -16,6 +16,6 @@
   "include": ["**/*.ts"],
   "exclude": [],
   "references": [
-    {"path": "../../core/fract"},
+    {"path": "../fract"},
   ]
 }
