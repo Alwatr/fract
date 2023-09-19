@@ -33,8 +33,8 @@
     "url": "https://github.com/AliMD/fract/issues"
   },
   "dependencies": {
-    "@alwatr/logger": "^1.0.0",
-    "@alwatr/math": "^1.0.0",
+    "@alwatr/logger": "^1.1.5",
+    "@alwatr/math": "^1.1.5",
     "@alwatr/signal2": "^1.0.0",
     "tslib": "^2.6.2"
   }
