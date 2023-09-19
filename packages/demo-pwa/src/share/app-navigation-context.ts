@@ -1,4 +1,4 @@
-import {AlwatrContextSignal} from '@alwatr/signal2';
+import {AlwatrContextSignal} from '@alwatr/signal';
 
 import {icons} from '../icons.js';
 

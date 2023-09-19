@@ -1,5 +1,5 @@
 import {AlwatrDirective, directive, html, mapObject, when, type PartInfo, classMap, noChange} from '@alwatr/fract';
-import {l10n} from '@alwatr/i18n2';
+import {l10n} from '@alwatr/i18n';
 
 import {icon, IconContent} from '../icon/icon.js';
 

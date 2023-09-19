@@ -1,6 +1,6 @@
 import {globalAlwatr} from '@alwatr/logger';
 import {UnicodeDigits, UnicodeLangKeys} from '@alwatr/math';
-import {AlwatrObservable} from '@alwatr/signal2/observable.js';
+import {AlwatrObservable} from '@alwatr/signal/observable.js';
 
 import {localeList} from './locale-list.js';
 

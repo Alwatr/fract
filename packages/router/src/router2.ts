@@ -1,18 +1,18 @@
 import {createLogger, globalAlwatr} from '@alwatr/logger';
-import {AlwatrObservable} from '@alwatr/signal2/observable.js';
+import {AlwatrObservable} from '@alwatr/signal/observable.js';
 
 import type {RouterConfig, PushState, RouteContext, RouteContextBase} from './type.js';
 import type {QueryParameters} from '@alwatr/type';
 
 globalAlwatr.registeredList.push({
-  name: '@alwatr/router2',
+  name: '@alwatr/router',
   version: _ALWATR_VERSION_,
 });
 
 const documentBaseUrl = document.querySelector('base')?.href || '/';
 
 export class AlwatrRouter extends AlwatrObservable<RouteContext> {
-  protected override _logger = createLogger('alwatr/router2');
+  protected override _logger = createLogger('alwatr/router');
 
   get route(): RouteContext {
     return this._$data ?? this._makeRouteContext();
