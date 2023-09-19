@@ -1,9 +1,9 @@
 import {AlwatrDynamicDirective, alwatrObserve, cache, directive, html, type PartInfo} from '@alwatr/fract';
 import {router, type RouteContext} from '@alwatr/router';
-import {alwatrNavigationBar} from '@alwatr/ui-kit2/navigation-bar/navigation-bar.js';
-import {alwatrNavigationDrawer} from '@alwatr/ui-kit2/navigation-drawer/navigation-drawer.js';
-import {alwatrNavigationRail} from '@alwatr/ui-kit2/navigation-rail/navigation-rail.js';
-import {centerTopAppBar, type CenterTopAppBarContent} from '@alwatr/ui-kit2/top-app-bar/center-top-app-bar.js';
+import {alwatrNavigationBar} from '@alwatr/ui-kit/navigation-bar/navigation-bar.js';
+import {alwatrNavigationDrawer} from '@alwatr/ui-kit/navigation-drawer/navigation-drawer.js';
+import {alwatrNavigationRail} from '@alwatr/ui-kit/navigation-rail/navigation-rail.js';
+import {centerTopAppBar, type CenterTopAppBarContent} from '@alwatr/ui-kit/top-app-bar/center-top-app-bar.js';
 import {renderState} from '@alwatr/util';
 
 import {alwatrPageTest} from './page-test.js';
