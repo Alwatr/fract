@@ -1,4 +1,4 @@
-import {AlwatrDynamicDirective, directive, html, Part, type PartInfo} from '@alwatr/fract';
+import {AlwatrDynamicDirective, directive, html, type Part, type PartInfo} from '@alwatr/fract';
 
 export class AlwatrPageTestDirective extends AlwatrDynamicDirective {
   constructor(partInfo: PartInfo) {
