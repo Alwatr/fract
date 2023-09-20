@@ -1,5 +1,4 @@
 import {FetchOptions} from '@alwatr/fetch';
-import {getConfKey} from '@alwatr/pwa-helper/config.js';
 import {getLocalStorageItem} from '@alwatr/util';
 
 /**
@@ -18,7 +17,6 @@ export const config = {
     base: srvBaseUrl,
     api: apiBaseUrl,
     cdn: srvBaseUrl + 'cdn',
-    token: getConfKey<string>('token'),
   },
 
   fetchContextOptions: {
