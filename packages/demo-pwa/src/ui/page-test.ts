@@ -1,16 +1,4 @@
 import {AlwatrDynamicDirective, directive, html, Part, type PartInfo} from '@alwatr/fract';
-import '@ionic/core/components/ion-badge.js';
-import '@ionic/core/components/ion-button.js';
-import '@ionic/core/components/ion-card-content.js';
-import '@ionic/core/components/ion-card-header.js';
-import '@ionic/core/components/ion-card-subtitle.js';
-import '@ionic/core/components/ion-card-title.js';
-import '@ionic/core/components/ion-card.js';
-import '@ionic/core/components/ion-progress-bar.js';
-import '@ionic/core/components/ion-searchbar.js';
-import '@ionic/core/dist/index.js';
-import '@ionic/core/dist/ionic/ionic.esm.js';
-import '@ionic/core/dist/ionic/ionic.js';
 
 export class AlwatrPageTestDirective extends AlwatrDynamicDirective {
   constructor(partInfo: PartInfo) {
