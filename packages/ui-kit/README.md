@@ -1,4 +1,4 @@
-# Alwatr UI-Kit 2 - `@alwatr/ui-kit2`
+# Alwatr UI-Kit - `@alwatr/ui-kit`
 
 Alwatr UI Elements Kit.
 

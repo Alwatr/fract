@@ -4,6 +4,6 @@ export default {
   ...tailwindConfig,
   content: [
     '**/*.html',
-    // join(dirname(require.resolve('@alwatr/ui-kit2')), '**/*.ts'),
+    // join(dirname(require.resolve('@alwatr/ui-kit')), '**/*.ts'),
   ],
 };

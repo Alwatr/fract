@@ -1,11 +1,11 @@
-import {AlwatrContextSignal} from '@alwatr/signal2';
+import {AlwatrContextSignal} from '@alwatr/signal';
 
 import {icons} from '../icons.js';
 
-import type {NavigationBarContent} from '@alwatr/ui-kit2/navigation-bar/navigation-bar.js';
-import type {NavigationDrawerContent} from '@alwatr/ui-kit2/navigation-drawer/navigation-drawer.js';
-import type {NavigationRailContent} from '@alwatr/ui-kit2/navigation-rail/navigation-rail.js';
-import type {CenterTopAppBarContent} from '@alwatr/ui-kit2/top-app-bar/center-top-app-bar.js';
+import type {NavigationBarContent} from '@alwatr/ui-kit/navigation-bar/navigation-bar.js';
+import type {NavigationDrawerContent} from '@alwatr/ui-kit/navigation-drawer/navigation-drawer.js';
+import type {NavigationRailContent} from '@alwatr/ui-kit/navigation-rail/navigation-rail.js';
+import type {CenterTopAppBarContent} from '@alwatr/ui-kit/top-app-bar/center-top-app-bar.js';
 
 export interface AppNavigationContext {
   navigationBar: NavigationBarContent;

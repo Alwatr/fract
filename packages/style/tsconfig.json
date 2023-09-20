@@ -9,7 +9,5 @@
 
   "include": ["**/*.ts"],
   "exclude": [],
-  "references": [
-    {"path": "../../core/logger"}
-  ]
+  "references": []
 }

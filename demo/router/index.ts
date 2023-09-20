@@ -1,4 +1,4 @@
-import {router} from '@alwatr/router2';
+import {router} from '@alwatr/router';
 import {renderState} from '@alwatr/util';
 
 type PageName = 'home' | 'about' | 'products' | 'product' | 'contact';

@@ -1,4 +1,4 @@
-import {AlwatrRouter} from './router2.js';
+import {AlwatrRouter} from './router.js';
 
 export type {RouteContext} from './type.js';
 

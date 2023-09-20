@@ -25,9 +25,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AliMD/fract",
-    "directory": "core/i18n"
+    "directory": "packages/i18n"
   },
-  "homepage": "https://github.com/AliMD/fract/tree/next/core/i18n#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/packages/i18n#readme",
   "bugs": {
     "url": "https://github.com/AliMD/fract/issues"
   },

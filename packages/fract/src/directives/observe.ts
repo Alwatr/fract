@@ -2,7 +2,7 @@
 import {AlwatrDynamicDirective} from '../dynamic-directive.js';
 import {directive, noChange, type PartInfo} from '../lit-html.js';
 
-import type {AlwatrObservableInterface} from '@alwatr/signal2';
+import type {AlwatrObservableInterface} from '@alwatr/signal';
 
 class AlwatrObserveDirective<T extends AlwatrObservableInterface<unknown>> extends AlwatrDynamicDirective {
   protected _$observable?: T;

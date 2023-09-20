@@ -25,9 +25,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AliMD/fract",
-    "directory": "core/fract"
+    "directory": "packages/fract"
   },
-  "homepage": "https://github.com/AliMD/fract/tree/next/core/fract#readme",
+  "homepage": "https://github.com/AliMD/fract/tree/next/packages/fract#readme",
   "bugs": {
     "url": "https://github.com/AliMD/fract/issues"
   },

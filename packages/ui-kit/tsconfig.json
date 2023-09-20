@@ -16,10 +16,6 @@
   "include": ["**/*.ts"],
   "exclude": [],
   "references": [
-    {"path": "../../core/fract"},
-    {"path": "../../core/type"},
-    {"path": "../../core/i18n2"},
-    {"path": "../../core/signal2"},
-    {"path": "../../core/util"},
+    {"path": "../fract"},
   ]
 }

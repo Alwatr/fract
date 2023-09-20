@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **style:** add `stateLayerPlugin` ([db076dd](https://github.com/AliMD/fract/commit/db076dd5f3af851e5eac3e1c68d7b1e2cb7cbc0d))
 * **style:** add new color h260 ([c128609](https://github.com/AliMD/fract/commit/c128609963df0aba508f239799ef8c52ea066c40))
 * **style:** add our z-index ([af5c97f](https://github.com/AliMD/fract/commit/af5c97f6f9fb439ec414e903497f416ddd2a76de))
-* **style:** add ui-kit2 to tailwind content ([8aeb3c9](https://github.com/AliMD/fract/commit/8aeb3c90df1e87c1d7e128a0b50662727417e679))
+* **style:** add ui-kit to tailwind content ([8aeb3c9](https://github.com/AliMD/fract/commit/8aeb3c90df1e87c1d7e128a0b50662727417e679))
 * **style:** elevation util ([29412d6](https://github.com/AliMD/fract/commit/29412d6541ce63e2dbf4078a81b308c1b7a6020c))
 * **style:** enhance stateHover, stateActive ([0aa3ee1](https://github.com/AliMD/fract/commit/0aa3ee1ed13183921aed058502fd961f2902e676))
 * **style:** new package for alwatr 2 css system ([9b9c791](https://github.com/AliMD/fract/commit/9b9c791570f23ec14d724528b5173cfe93a5e46b))

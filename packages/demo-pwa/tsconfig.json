@@ -17,13 +17,11 @@
   "include": ["src/**/*.ts"],
   "exclude": [],
   "references": [
-    {"path": "../../core/type"},
-    {"path": "../../core/util"},
-    {"path": "../../core/fract"},
-    {"path": "../../core/router2"},
-    {"path": "../../core/i18n2"},
-    {"path": "../../packages/ui-kit"},
-    {"path": "../../packages/ui-kit2"},
-    {"path": "../../packages/style"}
+    {"path": "../icon"},
+    {"path": "../fract"},
+    {"path": "../router"},
+    {"path": "../i18n"},
+    {"path": "../style"},
+    {"path": "../ui-kit"}
   ]
 }

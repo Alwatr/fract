@@ -1,4 +1,4 @@
-import {l10n} from '@alwatr/i18n2';
+import {l10n} from '@alwatr/i18n';
 import {createLogger} from '@alwatr/logger';
 import {delay} from '@alwatr/util';
 const logger = createLogger('demo/l18n', true);
