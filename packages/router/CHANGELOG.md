@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.0 (2023-09-20)
+
+### Bug Fixes
+
+* all deps ([fb47833](https://github.com/AliMD/fract/commit/fb47833c2cb6853a7e619c8d3cdbe8b4aacdd604)) by @AliMD
+* all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
+* import paths ([a4ad9f4](https://github.com/AliMD/fract/commit/a4ad9f4f6db759451e84a37f6cad9606c8586c65)) by @AliMD
+* repo paths ([b20214b](https://github.com/AliMD/fract/commit/b20214bbe8d13ad3f47ec2b5d1c6219ab88699a0)) by @AliMD
+* **router:** file name ([2a69c08](https://github.com/AliMD/fract/commit/2a69c08645acc331ecf9654bb9d35e2d0b902d4a)) by @AliMD
+* ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
+
 ## [1.1.2](https://github.com/AliMD/fract/compare/@alwatr/router@1.1.1...@alwatr/router@1.1.2) (2023-09-12)
 
 **Note:** Version bump only for package @alwatr/router
