@@ -36,7 +36,6 @@
   "devDependencies": {
     "@alwatr/fsm": "^2.0.0",
     "@alwatr/logger": "^1.1.5",
-    "@alwatr/pwa-helper": "^1.1.2",
     "@alwatr/signal": "^2.0.0"
   }
 }
