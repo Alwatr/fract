@@ -32,7 +32,7 @@ export class AlwatrNavigationBarDirective extends AlwatrDirective {
   protected _renderNavItems(content: NavigationBarContent): unknown {
     const navItemList = mapObject(content.itemList, (item, key) => {
       const _label = item.label ?? l10n.message(item.labelKey);
-      return html`<a aria-selected="${content.selected === key}"
+      return html`<a aria-selected=${content.selected === key}
         class="group flex grow flex-col items-center justify-start pt-3
         hover:text-onSurface aria-selected:pointer-events-none"
       ><div
