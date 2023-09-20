@@ -8,6 +8,8 @@ import {defineCustomElement as IonCardTitle} from '@ionic/core/components/ion-ca
 import {defineCustomElement as IonCard} from '@ionic/core/components/ion-card.js';
 import {defineCustomElement as IonProgressBar} from '@ionic/core/components/ion-progress-bar.js';
 import {defineCustomElement as IonSearchbar} from '@ionic/core/components/ion-searchbar.js';
+import {defineCustomElement as IonSegmentButton} from '@ionic/core/components/ion-segment-button.js';
+import {defineCustomElement as IonSegment} from '@ionic/core/components/ion-segment.js';
 
 initialize();
 
@@ -19,3 +21,5 @@ IonCardTitle();
 IonCard();
 IonProgressBar();
 IonSearchbar();
+IonSegment();
+IonSegmentButton();

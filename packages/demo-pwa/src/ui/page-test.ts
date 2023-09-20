@@ -29,12 +29,27 @@ export class AlwatrPageTestDirective extends AlwatrDynamicDirective {
   render(name: string): unknown {
     this._logger.logMethodArgs?.('render', name);
     return html`
-      <div class="flex w-full flex-col justify-evenly">
+      <div class="flex w-full flex-col gap-10">
+        <ion-segment value="default">
+          <ion-segment-button value="default">
+            <ion-label>Default</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="segment">
+            <ion-label>Segment</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="tab">
+            <ion-label>Tab</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="file">
+            <ion-label>File</ion-label>
+          </ion-segment-button>
+        </ion-segment>
+
         <ion-searchbar></ion-searchbar>
 
-        <ion-progress-bar></ion-progress-bar>
-
         <ion-card>
+          <ion-progress-bar></ion-progress-bar>
+
           <ion-card-header>
             <ion-card-title>Card Title</ion-card-title>
             <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
