@@ -11,17 +11,15 @@ const config = {
   rootDir: 'dist',
   appIndex: 'index.html',
   plugins: [],
-  middleware: [(context, next) => {
-    // if file not found, return app index.html
-    if (!(
-      context.url === '/' ||
-      context.url.startsWith('/__w') ||
-      existsSync(config.rootDir + context.url)
-    )) {
-      context.url = config.appIndex;
-    }
-    return next();
-  }],
+  middleware: [
+    (context, next) => {
+      // if file not found, return app index.html
+      if (!(context.url === '/' || context.url.startsWith('/__w') || existsSync(config.rootDir + context.url))) {
+        context.url = config.appIndex;
+      }
+      return next();
+    },
+  ],
 };
 
 export default config;

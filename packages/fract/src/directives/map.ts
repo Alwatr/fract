@@ -16,10 +16,10 @@ import {nothing} from '../lit-html.js';
  * ```
  */
 export function* map<T>(
-    items: Iterable<T> | undefined,
-    f: (value: T) => unknown,
-    _this?: unknown,
-    loading?: () => unknown,
+  items: Iterable<T> | undefined,
+  f: (value: T) => unknown,
+  _this?: unknown,
+  loading?: () => unknown,
 ): unknown {
   if (items === undefined) {
     return loading?.() ?? nothing;
@@ -46,10 +46,10 @@ export function* map<T>(
  * ```
  */
 export function* mapObject<T>(
-    items: Record<string, T> | undefined | null,
-    f: (value: T, key: string) => unknown,
-    _this?: unknown,
-    loading?: () => unknown,
+  items: Record<string, T> | undefined | null,
+  f: (value: T, key: string) => unknown,
+  _this?: unknown,
+  loading?: () => unknown,
 ): unknown {
   if (items === undefined) {
     return loading?.() ?? nothing;

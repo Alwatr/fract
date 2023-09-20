@@ -1,14 +1,14 @@
 import {AlwatrDynamicDirective, classMap, directive, html, type PartInfo} from '@alwatr/fract';
 
 export interface ButtonOptions {
-   /**
+  /**
    * Label.
    */
-   label: string,
+  label: string;
 
-   disabled?: boolean;
+  disabled?: boolean;
 
-   extendClass?: string
+  extendClass?: string;
 }
 
 export class AlwatrButtonDirective extends AlwatrDynamicDirective {
@@ -19,10 +19,14 @@ export class AlwatrButtonDirective extends AlwatrDynamicDirective {
   render(options: ButtonOptions): unknown {
     this._logger.logMethodArgs?.('render', options);
     return html`<button
-      class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-onPrimary
-        rounded-lg bg-primary bg-opacity-90 hover:bg-opacity-100 active:bg-opacity-95 select-none
-        ${classMap({'opacity-25 pointer-events-none': options.disabled === true})}"
-    >${options.label}</button>`;
+      class="${classMap({
+        'opacity-25 pointer-events-none': options.disabled === true,
+      })} inline-flex select-none items-center justify-center rounded-lg bg-primary bg-opacity-90 px-5
+        py-3 text-center text-base font-medium text-onPrimary hover:bg-opacity-100
+        active:bg-opacity-95"
+    >
+      ${options.label}
+    </button>`;
   }
 }
 

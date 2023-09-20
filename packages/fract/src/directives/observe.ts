@@ -1,4 +1,3 @@
-
 import {AlwatrDynamicDirective} from '../dynamic-directive.js';
 import {directive, noChange, type PartInfo} from '../lit-html.js';
 
@@ -35,9 +34,12 @@ class AlwatrObserveDirective<T extends AlwatrObservableInterface<unknown>> exten
    */
   subscribe(observable: T): void {
     this._logger.logMethod?.('subscribe');
-    this.unsubscribe = observable.subscribe((v) => {
-      this.setValue(this._$render!(v));
-    }, {receivePrevious: true}).unsubscribe;
+    this.unsubscribe = observable.subscribe(
+      (v) => {
+        this.setValue(this._$render!(v));
+      },
+      {receivePrevious: true},
+    ).unsubscribe;
   }
 
   // When the directive is disconnected from the DOM, unsubscribe to ensure

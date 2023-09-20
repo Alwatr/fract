@@ -23,13 +23,17 @@ export class IconDirective extends AlwatrDynamicDirective {
       });
       return this._renderSvg();
     }
-    else {
+ else {
       return this._renderSvg(content.svg, content.flipIconInRtl ? 'rtl:-scale-x-100' : '');
     }
   }
 
   protected _renderSvg(svg?: string, customClass = ''): unknown {
-    return html`<div class="w-[1em] h-[1em] box-content align-middle [contain:size_layout_paint_style] ${customClass} [&>svg]:block [&>svg]:h-full [&>svg]:w-full [&>svg]:stroke-current [&>svg]:fill-current">${svg ? unsafeSVG(svg) : nothing}</div>`;
+    return html`<div
+      class="${customClass} box-content h-[1em] w-[1em] align-middle [contain:size_layout_paint_style] [&>svg]:block [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current [&>svg]:stroke-current"
+    >
+      ${svg ? unsafeSVG(svg) : nothing}
+    </div>`;
   }
 }
 

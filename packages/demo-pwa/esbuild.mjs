@@ -84,12 +84,7 @@ const esbuildContext = await esbuild.context({
 
   plugins: [
     postCssPlugin({
-      plugins: [
-        postcssImport,
-        postcssNesting,
-        postcssTailwind,
-        postcssPresetEnv,
-      ],
+      plugins: [postcssImport, postcssNesting, postcssTailwind, postcssPresetEnv],
     }),
   ],
 
@@ -111,12 +106,12 @@ async function makeHtml() {
   const outFiles = Object.keys(metafile.outputs);
 
   const jsFilename = outFiles
-      .find((filename) => filename.includes(srcFilename) && filename.endsWith('.js'))
-      .substring(outDir.length + 1);
+    .find((filename) => filename.includes(srcFilename) && filename.endsWith('.js'))
+    .substring(outDir.length + 1);
 
   const cssFilename = outFiles
-      .find((filename) => filename.includes(srcFilename) && filename.endsWith('.css'))
-      .substring(outDir.length + 1);
+    .find((filename) => filename.includes(srcFilename) && filename.endsWith('.css'))
+    .substring(outDir.length + 1);
 
   logger.logProperty?.('jsFilename', jsFilename);
   logger.logProperty?.('cssFilename', cssFilename);
@@ -131,9 +126,7 @@ async function makeHtml() {
     throw new Error('css_filename_not_found');
   }
 
-  htmlContent = htmlContent
-      .replaceAll(`${srcFilename}.css`, cssFilename)
-      .replaceAll(`${srcFilename}.js`, jsFilename);
+  htmlContent = htmlContent.replaceAll(`${srcFilename}.css`, cssFilename).replaceAll(`${srcFilename}.js`, jsFilename);
 
   await copyPromise; // wait to cp done
   await fs.writeFile(`${outDir}/index.html`, htmlContent, {encoding: 'utf-8', flag: 'w'});
@@ -147,9 +140,7 @@ async function buildServiceWorker() {
     globDirectory: `${outDir}/`,
     clientsClaim: true,
     skipWaiting: true,
-    globPatterns: [
-      '**/*.{js,css,json,png,svg,ico,webp,woff2,html}',
-    ],
+    globPatterns: ['**/*.{js,css,json,png,svg,ico,webp,woff2,html}'],
   });
 
   logger.logOther?.('serviceWorkerPath', build);
@@ -157,11 +148,9 @@ async function buildServiceWorker() {
 
 if (watchMode) {
   esbuildContext.watch();
-}
-else {
+} else {
   await makeHtml();
   esbuildContext.dispose();
-
 
   if (debugMode) {
     console.log(await esbuild.analyzeMetafile((await esBuildPromise).metafile));

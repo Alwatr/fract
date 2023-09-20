@@ -17,7 +17,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Performance Improvements
 
-* **pwa:** optimize first load and rendering ([343d757](https://github.com/AliMD/fract/commit/343d757eefab6572df54fb4f7624698e9a9f9e11))
+- **pwa:** optimize first load and rendering ([343d757](https://github.com/AliMD/fract/commit/343d757eefab6572df54fb4f7624698e9a9f9e11))
 
 # 0.30.0 (2023-03-06)
 
@@ -29,13 +29,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* new ui design system ([8c9c8ba](https://github.com/AliMD/fract/commit/8c9c8ba29c477838f3e7034b902f4e0dafabd17c))
+- new ui design system ([8c9c8ba](https://github.com/AliMD/fract/commit/8c9c8ba29c477838f3e7034b902f4e0dafabd17c))
 
 # 0.26.0 (2022-12-22)
 
 ### Bug Fixes
 
-* **packages/*:** package path in refrences ([841d86d](https://github.com/AliMD/fract/commit/841d86dc2555fdc86a950b490ea2eb9fffe4df2d))
+- **packages/\*:** package path in refrences ([841d86d](https://github.com/AliMD/fract/commit/841d86dc2555fdc86a950b490ea2eb9fffe4df2d))
 
 # [1.0.0](https://github.com/AliMD/fract/compare/v0.32.0...v1.0.0) (2023-06-14)
 

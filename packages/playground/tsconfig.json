@@ -6,7 +6,7 @@
     "rootDir": "src",
     "outDir": "build",
     "noEmit": true,
-    "plugins": [],
+    "plugins": []
   },
 
   "include": ["src/**/*.ts"],

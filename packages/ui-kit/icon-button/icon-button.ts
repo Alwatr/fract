@@ -7,4 +7,10 @@ export interface IconButtonContent extends IconContent {
   disabled?: boolean;
 }
 
-export const iconButton = (content: IconButtonContent) => html`<button @click=${content.onClick} class="flex w-10 h-10 rounded-full bg-surfaceContainerHighest text-Primary items-center justify-center hover:stateHover-onSurface m-1 active:stateActive-onSurface">${icon(content)}</button>`;
+export const iconButton = (content: IconButtonContent) =>
+  html`<button
+    @click=${content.onClick}
+    class="text-Primary m-1 flex h-10 w-10 items-center justify-center rounded-full bg-surfaceContainerHighest hover:stateHover-onSurface active:stateActive-onSurface"
+  >
+    ${icon(content)}
+  </button>`;
