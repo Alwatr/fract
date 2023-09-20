@@ -34,7 +34,11 @@ Insert these lines inside `<head>` tag.
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@alwatr/font@0.21.0/vazirmatn-roundot.min.css" fetchpriority="high" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@alwatr/font@0.21.0/vazirmatn-roundot.min.css"
+  fetchpriority="high"
+/>
 
 <link
   rel="preload"

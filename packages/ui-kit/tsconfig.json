@@ -10,12 +10,10 @@
         "name": "ts-lit-plugin",
         "strict": true
       }
-    ],
+    ]
   },
   // files, include and exclude from the inheriting config are always overwritten.
   "include": ["**/*.ts"],
   "exclude": [],
-  "references": [
-    {"path": "../fract"},
-  ]
+  "references": [{"path": "../fract"}]
 }

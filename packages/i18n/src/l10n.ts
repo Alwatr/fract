@@ -70,13 +70,13 @@ export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
 
     if (this._resource?.meta.code === locale.code) {
       this._logger.incident?.(
-          '_loadResource',
-          'load_skipped',
-          'Request l18e (LocalizationResource) is same as active l18n',
-          {
-            request: locale.code,
-            active: this._resource.meta.code,
-          },
+        '_loadResource',
+        'load_skipped',
+        'Request l18e (LocalizationResource) is same as active l18n',
+        {
+          request: locale.code,
+          active: this._resource.meta.code,
+        },
       );
       return;
     }
@@ -84,20 +84,16 @@ export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
     try {
       const resource = await this._resourceLoader(locale);
       if (resource.meta?.code !== locale.code) {
-        this._logger.error(
-            '_loadResource',
-            'invalid_localization',
-            {
-              request: locale.code,
-              active: resource.meta.code,
-            },
-        );
+        this._logger.error('_loadResource', 'invalid_localization', {
+          request: locale.code,
+          active: resource.meta.code,
+        });
       }
-      else {
+ else {
         this._resource = resource;
       }
     }
-    catch (err) {
+ catch (err) {
       this._logger.error('_loadResource', 'loader_function_error', err);
     }
   }
@@ -166,9 +162,9 @@ export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
   }
 
   relativeTime(
-      date: number | Date,
-      from: number | Date = Date.now(),
-      options: Intl.RelativeTimeFormatOptions = {numeric: 'auto', style: 'narrow'},
+    date: number | Date,
+    from: number | Date = Date.now(),
+    options: Intl.RelativeTimeFormatOptions = {numeric: 'auto', style: 'narrow'},
   ): string {
     this._logger.logMethodArgs?.('relativeTime', {date, from, options});
 
@@ -243,9 +239,9 @@ export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
 
     if (this._resourceLoader !== undefined) {
       this._logger.accident(
-          'setResourceLoader',
-          'resource_loader_exist',
-          'Multi l10n resource loader register, the previous one was removed to avoid errors.',
+        'setResourceLoader',
+        'resource_loader_exist',
+        'Multi l10n resource loader register, the previous one was removed to avoid errors.',
       );
     }
 

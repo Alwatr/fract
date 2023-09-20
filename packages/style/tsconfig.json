@@ -4,7 +4,7 @@
     "composite": true,
     "tsBuildInfoFile": ".tsbuildinfo",
     "rootDir": ".",
-    "outDir": ".",
+    "outDir": "."
   },
 
   "include": ["**/*.ts"],

@@ -2,10 +2,13 @@ import type {AlwatrServiceResponseSuccessWithMeta, MaybePromise} from '@alwatr/t
 
 export type LocaleCode = `${Lowercase<string>}-${Uppercase<string>}`;
 
-export type L10nResource = AlwatrServiceResponseSuccessWithMeta<Record<string, string>, {
-  code: LocaleCode;
-  rev: number;
-}>;
+export type L10nResource = AlwatrServiceResponseSuccessWithMeta<
+  Record<string, string>,
+  {
+    code: LocaleCode;
+    rev: number;
+  }
+>;
 
 export interface Locale {
   /**
@@ -24,4 +27,4 @@ export interface Locale {
   direction: 'rtl' | 'ltr';
 }
 
-export type L10nResourceLoader = (locale: Locale) => MaybePromise<L10nResource>
+export type L10nResourceLoader = (locale: Locale) => MaybePromise<L10nResource>;

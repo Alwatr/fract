@@ -14,13 +14,12 @@ export type PageName = 'home' | 'favorites' | 'contact' | 'other' | '_404';
 
 appLogger.logModule?.('alwatr-pwa');
 
-
 export class AlwatrPwaDirective extends AlwatrDynamicDirective {
   constructor(partInfo: PartInfo) {
     super(partInfo, '<alwatr-pwa>');
   }
 
-  * render(): unknown {
+  *render(): unknown {
     this._logger.logMethod?.('render');
 
     yield this._renderTopAppBar();
@@ -33,15 +32,21 @@ export class AlwatrPwaDirective extends AlwatrDynamicDirective {
   }
 
   protected _renderNavigationBar(): unknown {
-    return alwatrObserve(appNavigationContext, (content: AppNavigationContext) => alwatrNavigationBar(content.navigationBar));
+    return alwatrObserve(appNavigationContext, (content: AppNavigationContext) =>
+      alwatrNavigationBar(content.navigationBar),
+    );
   }
 
   protected _renderNavigationDrawer(): unknown {
-    return alwatrObserve(appNavigationContext, (content: AppNavigationContext) => alwatrNavigationDrawer(content.navigationDrawer));
+    return alwatrObserve(appNavigationContext, (content: AppNavigationContext) =>
+      alwatrNavigationDrawer(content.navigationDrawer),
+    );
   }
 
   protected _renderNavigationRail(): unknown {
-    return alwatrObserve(appNavigationContext, (context: AppNavigationContext) => alwatrNavigationRail(context.navigationRail));
+    return alwatrObserve(appNavigationContext, (context: AppNavigationContext) =>
+      alwatrNavigationRail(context.navigationRail),
+    );
   }
 
   protected _renderTopAppBar(): unknown {
@@ -50,15 +55,17 @@ export class AlwatrPwaDirective extends AlwatrDynamicDirective {
 
   protected _renderContent(): unknown {
     return alwatrObserve(router, (route: RouteContext) => {
-      const page = route.sectionList[0] as PageName ?? 'home';
-      return cache(renderState(page, {
-        home: () => html`<h1>home2...</h1>`,
-        favorites: () => html`${alwatrPageTest(page)}`,
-        other: () => html`${alwatrPageTest(page)}`,
-        contact: () => html`<h1>call...</h1>`,
-        _404: () => html`<h1>404!</h1>`,
-        _default: '_404',
-      }));
+      const page = (route.sectionList[0] as PageName) ?? 'home';
+      return cache(
+        renderState(page, {
+          home: () => html`<h1>home2...</h1>`,
+          favorites: () => html`${alwatrPageTest(page)}`,
+          other: () => html`${alwatrPageTest(page)}`,
+          contact: () => html`<h1>call...</h1>`,
+          _404: () => html`<h1>404!</h1>`,
+          _default: '_404',
+        }),
+      );
     });
   }
 }

@@ -17,11 +17,14 @@ l10n.setResourceLoader((locale) => {
       code: locale.language === 'fa' ? 'fa-IR' : 'en-US',
       rev: 2,
     },
-    data: locale.language === 'fa' ? {
-      'hi': 'سلام',
-    } : {
-      'hi': 'hello',
-    },
+    data:
+      locale.language === 'fa'
+        ? {
+            hi: 'سلام',
+          }
+        : {
+            hi: 'hello',
+          },
   };
 });
 

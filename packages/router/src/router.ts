@@ -71,9 +71,9 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
    * ```
    */
   redirect(
-      route: string | Partial<RouteContextBase> | undefined,
-      pushState: PushState = true,
-      keepSectionSlice = 0,
+    route: string | Partial<RouteContextBase> | undefined,
+    pushState: PushState = true,
+    keepSectionSlice = 0,
   ): void {
     if (route == null) return;
     this._logger.logMethodArgs?.('redirect', route);
@@ -100,7 +100,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (pushState === 'replace') {
       history.replaceState(null, '', url);
     }
-    else {
+ else {
       history.pushState(null, '', url);
     }
   }
@@ -112,9 +112,9 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     this._logger.logMethod?.('makeRouteContext');
 
     const sectionList = location.pathname
-        .split('/')
-        .map(this._decodeURIComponent) // decode must be after split because encoded '/' maybe include in values.
-        .filter((section) => section.trim() !== '');
+      .split('/')
+      .map(this._decodeURIComponent) // decode must be after split because encoded '/' maybe include in values.
+      .filter((section) => section.trim() !== '');
 
     const queryParamList = this._parseQueryParamString(location.search);
 
@@ -172,7 +172,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     try {
       return decodeURIComponent(val);
     }
-    catch (err) {
+ catch (err) {
       return val;
     }
   }
@@ -196,7 +196,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (enable) {
       globalThis.addEventListener('popstate', this._popstateHandler);
     }
-    else {
+ else {
       globalThis.removeEventListener('popstate', this._popstateHandler);
     }
     this._$popstateTrigger = enable;
@@ -283,7 +283,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (enable) {
       window.document.addEventListener('click', this._clickHandler);
     }
-    else {
+ else {
       window.document.removeEventListener('click', this._clickHandler);
     }
     this._$clickTrigger = enable;
