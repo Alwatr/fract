@@ -29,27 +29,25 @@ export class AlwatrPageTestDirective extends AlwatrDynamicDirective {
   render(name: string): unknown {
     this._logger.logMethodArgs?.('render', name);
     return html`
-      <ion-searchbar></ion-searchbar>
+      <div class="flex w-full flex-col justify-evenly">
+        <ion-searchbar></ion-searchbar>
 
-      <ion-progress-bar></ion-progress-bar>
+        <ion-progress-bar></ion-progress-bar>
 
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Card Title</ion-card-title>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-        </ion-card-header>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Card Title</ion-card-title>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          </ion-card-header>
 
-        <ion-card-content>
-          Here's a small text description for the card content. Nothing more, nothing less.
-        </ion-card-content>
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
 
-        <ion-button fill="clear">Action 1</ion-button>
-        <ion-button fill="clear">Action 2</ion-button>
-      </ion-card>
-
-      <ion-chip>Default</ion-chip>
-      <ion-chip disabled="true">Disabled</ion-chip>
-      <ion-chip outline="true">Outline</ion-chip>
+          <ion-button fill="clear">Action 1</ion-button>
+          <ion-button fill="clear">Action 2</ion-button>
+        </ion-card>
+      </div>
     `;
   }
 }

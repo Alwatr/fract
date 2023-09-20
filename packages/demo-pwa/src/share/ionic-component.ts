@@ -1,6 +1,5 @@
 /* eslint-disable new-cap */
 import {initialize} from '@ionic/core/components';
-import {defineCustomElement as IonBadge} from '@ionic/core/components/ion-badge.js';
 import {defineCustomElement as IonButton} from '@ionic/core/components/ion-button.js';
 import {defineCustomElement as IonCardContent} from '@ionic/core/components/ion-card-content.js';
 import {defineCustomElement as IonCardHeader} from '@ionic/core/components/ion-card-header.js';
@@ -12,7 +11,6 @@ import {defineCustomElement as IonSearchbar} from '@ionic/core/components/ion-se
 
 initialize();
 
-IonBadge();
 IonButton();
 IonCardContent();
 IonCardHeader();
