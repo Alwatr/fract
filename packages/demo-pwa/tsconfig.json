@@ -17,6 +17,7 @@
   "include": ["src/**/*.ts"],
   "exclude": [],
   "references": [
+    {"path": "../icon"},
     {"path": "../fract"},
     {"path": "../router"},
     {"path": "../i18n"},
