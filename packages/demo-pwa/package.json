@@ -36,9 +36,7 @@
   "devDependencies": {
     "@alwatr/fsm": "^2.0.0",
     "@alwatr/logger": "^1.1.5",
-    "@alwatr/signal": "^2.0.0"
-  },
-  "dependencies": {
+    "@alwatr/signal": "^2.0.0",
     "@ionic/core": "^7.4.1"
   }
 }
