@@ -4,6 +4,7 @@ import {colorTheme} from './colors.js';
 import {elevationPlugin} from './elevation.js';
 import {screenTheme} from './screen.js';
 import {stateLayerPlugin} from './state-layer.js';
+import {translucentPlugin} from './translucent.js';
 import {typographyTheme} from './typography.js';
 import {zIndexTheme} from './z-index.js';
 
@@ -24,8 +25,5 @@ export const tailwindConfig: Config = {
       ...screenTheme,
     },
   },
-  plugins: [
-    elevationPlugin,
-    stateLayerPlugin,
-  ],
+  plugins: [elevationPlugin, stateLayerPlugin, translucentPlugin],
 };
