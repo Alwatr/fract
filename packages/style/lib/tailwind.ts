@@ -1,4 +1,4 @@
-import {join, dirname} from 'node:path';
+// import {join, dirname} from 'node:path';
 
 import {colorTheme} from './colors.js';
 import {elevationPlugin} from './elevation.js';
@@ -14,7 +14,7 @@ export const tailwindConfig: Config = {
   content: [
     './res/*.html',
     './src/**/*.ts',
-    join(dirname(require.resolve('@alwatr/ui-kit')), '**/*.ts'),
+    // join(dirname(require.resolve('@alwatr/ui-kit')), '**/*.ts'),
   ],
   darkMode: 'media',
   theme: {
