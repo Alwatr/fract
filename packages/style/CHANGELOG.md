@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/AliMD/fract/compare/@alwatr/style@1.1.2...@alwatr/style@1.2.0) (2023-09-23)
+
+### Bug Fixes
+
+* **style:** default module resolve for ui-kit ([bbb0a54](https://github.com/AliMD/fract/commit/bbb0a542ccc9def933843abda4c556d327782a03)) by @AliMD
+
+### Features
+
+* **style:** add to default plugins ([56a8699](https://github.com/AliMD/fract/commit/56a8699f0f86c5d07a5539179374918826597233)) by @AliMD
+* **style:** translucentPlugin ([ff9588f](https://github.com/AliMD/fract/commit/ff9588fe2ccc4b42e9ba3ed4976eaa9061d37a80)) by @AliMD
+
 ## 1.1.2 (2023-09-20)
 
 ### Bug Fixes
