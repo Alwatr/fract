@@ -5861,6 +5861,13 @@ lit-html@^2.8.0:
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
+lit-html@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-3.0.2.tgz#25d2718b1e095a148a54c63bcd780c7550bb82f8"
+  integrity sha512-Q1A5lHza3bnmxoWJn6yS6vQZQdExl4fghk8W1G+jnAEdoFNYo5oeBBb/Ol7zSEdKd3TR7+r0zsJQyuWEVguiyQ==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+
 lit@^2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/lit/-/lit-2.8.0.tgz#4d838ae03059bf9cafa06e5c61d8acc0081e974e"
