@@ -3272,7 +3272,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.6.3":
+"@types/node@npm:*":
   version: 20.6.3
   resolution: "@types/node@npm:20.6.3"
   checksum: d76d07e37cffebdd55a2836dde25d892d3144e030516fed7a70390fc51ab07bdd58fa674c19b50bcf0751af8e5e15ccd01a83804b88511ba821db42f2f3bd0bd
@@ -3716,7 +3716,6 @@ __metadata:
     "@lerna-lite/publish": "npm:^2.5.1"
     "@lerna-lite/run": "npm:^2.5.1"
     "@lerna-lite/version": "npm:^2.5.1"
-    "@types/node": "npm:^20.6.3"
     "@typescript-eslint/eslint-plugin": "npm:^6.7.2"
     "@typescript-eslint/parser": "npm:^6.7.2"
     "@web/dev-server": "npm:^0.3.1"
