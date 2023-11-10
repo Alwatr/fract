@@ -7,11 +7,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* all deps ([fb47833](https://github.com/AliMD/fract/commit/fb47833c2cb6853a7e619c8d3cdbe8b4aacdd604)) by @AliMD
-* all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
-* import paths ([a4ad9f4](https://github.com/AliMD/fract/commit/a4ad9f4f6db759451e84a37f6cad9606c8586c65)) by @AliMD
-* repo paths ([b20214b](https://github.com/AliMD/fract/commit/b20214bbe8d13ad3f47ec2b5d1c6219ab88699a0)) by @AliMD
-* ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
+- all deps ([fb47833](https://github.com/AliMD/fract/commit/fb47833c2cb6853a7e619c8d3cdbe8b4aacdd604)) by @AliMD
+- all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
+- import paths ([a4ad9f4](https://github.com/AliMD/fract/commit/a4ad9f4f6db759451e84a37f6cad9606c8586c65)) by @AliMD
+- repo paths ([b20214b](https://github.com/AliMD/fract/commit/b20214bbe8d13ad3f47ec2b5d1c6219ab88699a0)) by @AliMD
+- ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
 
 ## [1.0.1](https://github.com/AliMD/fract/compare/v1.0.0...v1.0.1) (2023-06-21)
 

@@ -6,7 +6,6 @@
   "type": "module",
   "dependencies": {
     "@alwatr/i18n": "workspace:^",
-    "@alwatr/icon": "workspace:^",
     "@alwatr/logger": "^2.1.3",
     "@alwatr/math": "^1.1.12",
     "@alwatr/router": "workspace:^",

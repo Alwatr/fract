@@ -7,20 +7,20 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **style:** default module resolve for ui-kit ([bbb0a54](https://github.com/AliMD/fract/commit/bbb0a542ccc9def933843abda4c556d327782a03)) by @AliMD
+- **style:** default module resolve for ui-kit ([bbb0a54](https://github.com/AliMD/fract/commit/bbb0a542ccc9def933843abda4c556d327782a03)) by @AliMD
 
 ### Features
 
-* **style:** add to default plugins ([56a8699](https://github.com/AliMD/fract/commit/56a8699f0f86c5d07a5539179374918826597233)) by @AliMD
-* **style:** translucentPlugin ([ff9588f](https://github.com/AliMD/fract/commit/ff9588fe2ccc4b42e9ba3ed4976eaa9061d37a80)) by @AliMD
+- **style:** add to default plugins ([56a8699](https://github.com/AliMD/fract/commit/56a8699f0f86c5d07a5539179374918826597233)) by @AliMD
+- **style:** translucentPlugin ([ff9588f](https://github.com/AliMD/fract/commit/ff9588fe2ccc4b42e9ba3ed4976eaa9061d37a80)) by @AliMD
 
 ## 1.1.2 (2023-09-20)
 
 ### Bug Fixes
 
-* all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
-* ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
-* ui-kit path ([f32a0cf](https://github.com/AliMD/fract/commit/f32a0cfdf7d118b8f56931e4fbd05385dcda7376)) by @AliMD
+- all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
+- ts refs ([1668b2d](https://github.com/AliMD/fract/commit/1668b2dbe0fcde38d3d0689ac230ce3bcdc712cb)) by @AliMD
+- ui-kit path ([f32a0cf](https://github.com/AliMD/fract/commit/f32a0cfdf7d118b8f56931e4fbd05385dcda7376)) by @AliMD
 
 ## [1.1.1](https://github.com/AliMD/fract/compare/@alwatr/style@1.1.0...@alwatr/style@1.1.1) (2023-09-12)
 

@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
+- all repo urls ([2ec6e1e](https://github.com/AliMD/fract/commit/2ec6e1e080f37d3b7c5eb37b272c1aa049540756)) by @AliMD
 
 ## [1.1.1](https://github.com/AliMD/fract/compare/@alwatr/font@1.1.0...@alwatr/font@1.1.1) (2023-09-12)
 
