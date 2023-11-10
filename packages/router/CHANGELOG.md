@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Alwatr/fract/compare/@alwatr/router@2.0.0-beta.0...@alwatr/router@2.0.0) (2023-11-10)
+
+### Bug Fixes
+
+* build issue with new deps ([ad1f8c6](https://github.com/Alwatr/fract/commit/ad1f8c65bce2f5ba7cf2a2421fd813c318073b78)) by @AliMD
+
 # 2.0.0-beta.0 (2023-09-20)
 
 ### Bug Fixes

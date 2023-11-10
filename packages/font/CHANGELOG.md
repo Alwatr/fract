@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/Alwatr/fract/compare/@alwatr/font@1.1.2...@alwatr/font@1.2.0) (2023-11-10)
+
+**Note:** Version bump only for package @alwatr/font
+
 ## 1.1.2 (2023-09-20)
 
 ### Bug Fixes
