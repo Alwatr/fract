@@ -70,7 +70,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/fract@workspace:packages/fract"
   dependencies:
-    "@alwatr/logger": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/signal": "npm:^2.0.2"
     lit-html: "npm:^2.8.0"
     tslib: "npm:^2.6.2"
@@ -117,7 +117,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/i18n@workspace:packages/i18n"
   dependencies:
-    "@alwatr/logger": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/math": "npm:^1.1.12"
     "@alwatr/signal": "npm:^2.0.2"
     tslib: "npm:^2.6.2"
@@ -130,7 +130,7 @@ __metadata:
   dependencies:
     "@alwatr/element": "npm:^1.1.2"
     "@alwatr/fetch": "npm:^2.0.8"
-    "@alwatr/logger": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.1.3"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
@@ -206,7 +206,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/router@workspace:packages/router"
   dependencies:
-    "@alwatr/logger": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/math": "npm:^1.1.12"
     "@alwatr/signal": "npm:^2.0.2"
     tslib: "npm:^2.6.2"
@@ -264,7 +264,7 @@ __metadata:
   resolution: "@alwatr/ui-demo-pwa@workspace:packages/demo-pwa"
   dependencies:
     "@alwatr/fsm": "npm:^2.0.2"
-    "@alwatr/logger": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/signal": "npm:^2.0.2"
   languageName: unknown
   linkType: soft
