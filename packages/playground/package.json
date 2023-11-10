@@ -34,5 +34,8 @@
     "serve": "wds",
     "watch": "run-p watch:css serve",
     "watch:css": "yarn build:css --watch"
+  },
+  "dependencies": {
+    "@alwatr/style": "workspace:^"
   }
 }
