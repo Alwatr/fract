@@ -1,7 +1,7 @@
 {
   "name": "alwatr-fract",
   "description": "Fract is an open source App Development Framework that makes it easy to build top quality Native and Progressive Web Apps with web technologies.",
-  "repository": "https://github.com/AliMD/fract",
+  "repository": "https://github.com/Alwatr/fract",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com> (https://ali.mihandoost.com)",
   "license": "MIT",
   "type": "module",

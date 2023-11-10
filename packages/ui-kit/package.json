@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliMD/fract",
+    "url": "https://github.com/Alwatr/fract",
     "directory": "packages/ui-kit"
   },
-  "homepage": "https://github.com/AliMD/fract/tree/next/packages/ui-kit#readme",
+  "homepage": "https://github.com/Alwatr/fract/tree/next/packages/ui-kit#readme",
   "bugs": {
-    "url": "https://github.com/AliMD/fract/issues"
+    "url": "https://github.com/Alwatr/fract/issues"
   },
   "dependencies": {
     "@alwatr/fract": "workspace:^",

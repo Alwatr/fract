@@ -6,7 +6,7 @@ Fract is an open source App Development Framework that makes it easy to build to
 
 Contains the following packages:
 
-1. [Demo PWA](./packages/demo-pwa): Alwatr Progressive Web Application Demo powered by [`lit`](https://github.com/lit/lit) and [`@alwatr`](https://github.com/AliMD/alwatr) library!
+1. [Demo PWA](./packages/demo-pwa): Alwatr Progressive Web Application Demo powered by [`lit`](https://github.com/lit/lit) and [`@alwatr`](https://github.com/Alwatr/fract) library!
 2. [Font](./packages/font): Best practices (The Right Way) of using Persian/Arabic web fonts in the website and webapp.
 3. [Fract](./packages/fract): Elegant simple render strategy powered by lit written in tiny TypeScript module for who hate react!
 4. [i18n](./packages/i18n): Elegant powerful translation module (i18n/l10n) with dynamic json storage written in tiny TypeScript, ES module.
