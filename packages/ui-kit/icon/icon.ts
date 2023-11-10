@@ -23,7 +23,7 @@ export class IconDirective extends AlwatrDynamicDirective {
       });
       return this._renderSvg();
     }
- else {
+    else {
       return this._renderSvg(content.svg, content.flipIconInRtl ? 'rtl:-scale-x-100' : '');
     }
   }

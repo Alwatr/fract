@@ -4,7 +4,7 @@ import {AlwatrObservable} from '@alwatr/signal/observable.js';
 import type {RouterConfig, PushState, RouteContext, RouteContextBase} from './type.js';
 import type {QueryParameters} from '@alwatr/type';
 
-definePackage('@alwatr/router', '2.x')
+definePackage('@alwatr/router', '2.x');
 
 const documentBaseUrl = document.querySelector('base')?.href || '/';
 

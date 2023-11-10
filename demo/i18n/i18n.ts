@@ -20,11 +20,11 @@ l10n.setResourceLoader((locale) => {
     data:
       locale.language === 'fa'
         ? {
-            hi: 'سلام',
-          }
+          hi: 'سلام',
+        }
         : {
-            hi: 'hello',
-          },
+          hi: 'hello',
+        },
   };
 });
 
