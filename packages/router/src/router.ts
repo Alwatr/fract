@@ -1,13 +1,10 @@
-import {createLogger, globalAlwatr} from '@alwatr/logger';
+import {createLogger, definePackage} from '@alwatr/logger';
 import {AlwatrObservable} from '@alwatr/signal/observable.js';
 
 import type {RouterConfig, PushState, RouteContext, RouteContextBase} from './type.js';
 import type {QueryParameters} from '@alwatr/type';
 
-globalAlwatr.registeredList.push({
-  name: '@alwatr/router',
-  version: _ALWATR_VERSION_,
-});
+definePackage('@alwatr/router', '2.x')
 
 const documentBaseUrl = document.querySelector('base')?.href || '/';
 
@@ -100,7 +97,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (pushState === 'replace') {
       history.replaceState(null, '', url);
     }
- else {
+    else {
       history.pushState(null, '', url);
     }
   }
@@ -172,7 +169,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     try {
       return decodeURIComponent(val);
     }
- catch (err) {
+    catch (err) {
       return val;
     }
   }
@@ -196,7 +193,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (enable) {
       globalThis.addEventListener('popstate', this._popstateHandler);
     }
- else {
+    else {
       globalThis.removeEventListener('popstate', this._popstateHandler);
     }
     this._$popstateTrigger = enable;
@@ -234,10 +231,10 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     // prettier-ignore
     // find the <a> element that the click is at (or within)
     const anchor = event
-        .composedPath()
-        .find(
-            (target) => (target as HTMLElement)?.tagName?.toLowerCase() === 'a',
-        ) as HTMLAnchorElement | undefined;
+      .composedPath()
+      .find(
+        (target) => (target as HTMLElement)?.tagName?.toLowerCase() === 'a',
+      ) as HTMLAnchorElement | undefined;
 
     if (
       // ignore if the anchor is not found.
@@ -283,7 +280,7 @@ export class AlwatrRouter extends AlwatrObservable<RouteContext> {
     if (enable) {
       window.document.addEventListener('click', this._clickHandler);
     }
- else {
+    else {
       window.document.removeEventListener('click', this._clickHandler);
     }
     this._$clickTrigger = enable;

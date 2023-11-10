@@ -1,4 +1,5 @@
-import {globalAlwatr} from '@alwatr/logger';
+
+import {definePackage} from '@alwatr/logger';
 import {UnicodeDigits, UnicodeLangKeys} from '@alwatr/math';
 import {AlwatrObservable} from '@alwatr/signal/observable.js';
 
@@ -7,10 +8,7 @@ import {localeList} from './locale-list.js';
 import type {L10nResource, L10nResourceLoader, Locale} from './type.js';
 import type {LocaleCode} from '@alwatr/type';
 
-globalAlwatr.registeredList.push({
-  name: '@alwatr/i18n',
-  version: _ALWATR_VERSION_,
-});
+definePackage('@alwatr/i18n', '2.x')
 
 export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
   protected _locale?: Locale;
@@ -89,11 +87,11 @@ export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
           active: resource.meta.code,
         });
       }
- else {
+      else {
         this._resource = resource;
       }
     }
- catch (err) {
+    catch (err) {
       this._logger.error('_loadResource', 'loader_function_error', err);
     }
   }
