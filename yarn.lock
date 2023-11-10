@@ -72,7 +72,7 @@ __metadata:
   dependencies:
     "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/signal": "npm:^2.0.2"
-    lit-html: "npm:^2.8.0"
+    lit-html: "npm:^3.0.2"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
@@ -7692,6 +7692,15 @@ __metadata:
   dependencies:
     "@types/trusted-types": "npm:^2.0.2"
   checksum: 90057dee050803823ac884c1355b0213ab8c05fbe2ec63943c694b61aade5d36272068f3925f45a312835e504f9c9784738ef797009f0a756a750351eafb52d5
+  languageName: node
+  linkType: hard
+
+"lit-html@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "lit-html@npm:3.0.2"
+  dependencies:
+    "@types/trusted-types": "npm:^2.0.2"
+  checksum: feec3c82e2ea2609c44b3e9bdeb80de614132ceac08be2ce312d979ffad714cb0b6081353c25ec8753120033388110806171d0cfa7ad640dbecdc4c93e56052a
   languageName: node
   linkType: hard
 
