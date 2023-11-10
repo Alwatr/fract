@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@alwatr/i18n": "^2.0.0-beta",
-    "@alwatr/signal": "^2.0.0",
-    "@alwatr/util": "^1.0.0",
+    "@alwatr/signal": "^2.0.2",
+    "@alwatr/util": "^1.2.10",
     "tslib": "^2.6.2"
   }
 }
