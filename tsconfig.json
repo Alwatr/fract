@@ -21,7 +21,7 @@
     {"path": "./packages/fract"},
     {"path": "./packages/ui-kit"},
     {"path": "./packages/style"},
-    {"path": "./packages/demo-pwa"},
+    // {"path": "./packages/demo-pwa"},
     // {"path": "./packages/icon"},
 
     // demo
