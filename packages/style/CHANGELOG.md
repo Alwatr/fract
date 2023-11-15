@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/Alwatr/fract/compare/@alwatr/style@1.3.0...@alwatr/style@2.0.0) (2023-11-15)
+
+### Features
+
+* **style:** Add alpine.css with x-cloak utility class. ([ba04c93](https://github.com/Alwatr/fract/commit/ba04c933b88117283ba82d3968c8ad40d22f7a27)) by @AliMD
+* **style:** Add animation theme to style package ([3c2c55a](https://github.com/Alwatr/fract/commit/3c2c55a9463614897cd8681c99ce87939440b7e7)) by @AliMD
+* **style:** Add CSS rules to hide spin buttons on input ([850b8e3](https://github.com/Alwatr/fract/commit/850b8e314b1948b8fb26d46b338a7fe239641ce8)) by @AliMD
+* **style:** Add custom scrollbar styles ([eac88d0](https://github.com/Alwatr/fract/commit/eac88d0cf93537af409cbff232527ca1c9a9c0f6)) by @AliMD
+* **style:** Add focus and styling to base.css ([0deae15](https://github.com/Alwatr/fract/commit/0deae15eb849ce63c1f09f104f41894d4166993b)) by @AliMD
+* **style:** Add new theme plugins and update imports. ([879ce1d](https://github.com/Alwatr/fract/commit/879ce1d759ef3b401966c338e8574a4d92829099)) by @AliMD
+* **style:** Add utility classes for text overflow and clipping ([4f95c5e](https://github.com/Alwatr/fract/commit/4f95c5e146f92b99efb7b793f790715c2c711740)) by @AliMD
+* **style:** Remove old color palette ([6dbb64c](https://github.com/Alwatr/fract/commit/6dbb64ceaa833f936710ccf4396a5c55491dddf8)) by @AliMD
+* **style:** Update style imports and exports. ([0eae90b](https://github.com/Alwatr/fract/commit/0eae90b4bfa4815f0065a13d8eea6fa3a23ff658)) by @AliMD
+* **style:** Update user profile page layout ([6a6760e](https://github.com/Alwatr/fract/commit/6a6760e218fee238d950810d4c7e065f656c9942)) by @AliMD
+* **style:** use standard material color ([05cd040](https://github.com/Alwatr/fract/commit/05cd040025a4d4fa72275e54aecf84f1e1746321)) by @njfamirm
+
+### BREAKING CHANGES
+
+* **style:** remove color system
+* **style:** palette must update
+
 # [1.3.0](https://github.com/Alwatr/fract/compare/@alwatr/style@1.2.0...@alwatr/style@1.3.0) (2023-11-10)
 
 **Note:** Version bump only for package @alwatr/style
