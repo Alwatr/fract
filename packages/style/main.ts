@@ -1,1 +1,1 @@
-export * from './lib/tailwind.js';
+export * from './tailwind.js'

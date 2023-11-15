@@ -3,4 +3,6 @@
 @import 'tailwindcss/utilities';
 
 @import './lib/base.css';
-@import './lib/colors.css';
+@import './lib/alpine.css';
+@import './lib/form.css';
+@import './lib/scrollbar.css';
