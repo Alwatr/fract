@@ -3784,6 +3784,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "alwatr-fract@workspace:."
   dependencies:
+    "@alwatr/style": "workspace:^"
     "@deanc/esbuild-plugin-postcss": "npm:^1.0.2"
     "@lerna-lite/changed": "npm:^2.6.0"
     "@lerna-lite/cli": "npm:^2.6.0"
