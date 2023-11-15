@@ -34,10 +34,10 @@ __metadata:
   resolution: "@alwatr/demo@workspace:demo"
   dependencies:
     "@alwatr/i18n": "workspace:^"
-    "@alwatr/logger": "npm:^2.1.3"
-    "@alwatr/math": "npm:^1.1.12"
+    "@alwatr/logger": "npm:^2.2.0"
+    "@alwatr/math": "npm:^1.2.0"
     "@alwatr/router": "workspace:^"
-    "@alwatr/util": "npm:^1.2.10"
+    "@alwatr/util": "npm:^1.3.0"
   languageName: unknown
   linkType: soft
 
@@ -51,8 +51,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/fract@workspace:packages/fract"
   dependencies:
-    "@alwatr/logger": "npm:^2.1.3"
-    "@alwatr/signal": "npm:^2.0.2"
+    "@alwatr/logger": "npm:^2.2.0"
+    "@alwatr/signal": "npm:^2.0.3"
     "@alwatr/style": "workspace:^"
     lit-html: "npm:^3.0.2"
     tslib: "npm:^2.6.2"
@@ -63,20 +63,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/i18n@workspace:packages/i18n"
   dependencies:
-    "@alwatr/logger": "npm:^2.1.3"
-    "@alwatr/math": "npm:^1.1.12"
-    "@alwatr/signal": "npm:^2.0.2"
-    "@alwatr/type": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.2.0"
+    "@alwatr/math": "npm:^1.2.0"
+    "@alwatr/signal": "npm:^2.0.3"
+    "@alwatr/type": "npm:^1.2.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
 
-"@alwatr/logger@npm:^2.1.2, @alwatr/logger@npm:^2.1.3":
+"@alwatr/logger@npm:^2.1.3":
   version: 2.1.3
   resolution: "@alwatr/logger@npm:2.1.3"
   dependencies:
     tslib: "npm:^2.6.2"
   checksum: 7f2e43eb2a324a63b7603e205900c66f922cf81668d692368bb63cb6070a21a52fafc6d82e553c3ebc43f340feeac3ef1dd13871f989e317b61c6951786e294a
+  languageName: node
+  linkType: hard
+
+"@alwatr/logger@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@alwatr/logger@npm:2.2.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: a3e95d67fcc09b54b38a967f15dc297128d8e6749b2123092f3f70343cb57bd7bb65dbb6434e8605f8f88dbe751d4c7be446042ffb4db9c70167bb87af0f0e43
   languageName: node
   linkType: hard
 
@@ -90,27 +99,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@alwatr/math@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@alwatr/math@npm:1.2.0"
+  dependencies:
+    "@alwatr/logger": "npm:^2.2.0"
+    tslib: "npm:^2.6.2"
+  checksum: 2acc21bfe658ed4e801f5359055fb85d5e3135e0dd8125a4f530b60d283cacc50d390127bc9c4d75b0d0682159e5b3723a0cbfd19735012150a68091f51a551a
+  languageName: node
+  linkType: hard
+
 "@alwatr/router@workspace:^, @alwatr/router@workspace:packages/router":
   version: 0.0.0-use.local
   resolution: "@alwatr/router@workspace:packages/router"
   dependencies:
-    "@alwatr/logger": "npm:^2.1.3"
-    "@alwatr/math": "npm:^1.1.12"
-    "@alwatr/signal": "npm:^2.0.2"
-    "@alwatr/type": "npm:^1.1.5"
+    "@alwatr/logger": "npm:^2.2.0"
+    "@alwatr/math": "npm:^1.2.0"
+    "@alwatr/signal": "npm:^2.0.3"
+    "@alwatr/type": "npm:^1.2.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
 
-"@alwatr/signal@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@alwatr/signal@npm:2.0.2"
+"@alwatr/signal@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@alwatr/signal@npm:2.0.3"
   dependencies:
-    "@alwatr/logger": "npm:^2.1.2"
-    "@alwatr/type": "npm:^1.1.4"
-    "@alwatr/util": "npm:^1.2.9"
+    "@alwatr/logger": "npm:^2.1.3"
+    "@alwatr/type": "npm:^1.1.5"
+    "@alwatr/util": "npm:^1.2.10"
     tslib: "npm:^2.6.2"
-  checksum: 034223040e6d564b5b68cd16188bc317001c9697dcb2cd3929d82e82e48e4ea6de3d9bcb9002ec0d4d2cebd60bf41280be45257f0711a62ae0918e1f47ba4242
+  checksum: 367b6e231b4e960100e3dedb891e003052b4742497e391814de67aa30ccfbc5f082070b86662f7cc151ff61c9706baf29a7ee68c4af722e9bd7506b9165e720a
   languageName: node
   linkType: hard
 
@@ -123,17 +142,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@alwatr/type@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "@alwatr/type@npm:1.1.4"
-  checksum: 7622bff8a052167672a0f1a6f8c5f9a3329f8e10a6c511b50c7989d10214dee7c4b783435bf2a65d517fd2f3d7fa82a2e446d3c5a21c1c6e27160ae8a4aafcf0
-  languageName: node
-  linkType: hard
-
 "@alwatr/type@npm:^1.1.5":
   version: 1.1.5
   resolution: "@alwatr/type@npm:1.1.5"
   checksum: d87587dfd9dff8ceb42dbe187f3db4313877930da802c269596ebcdb1e3541ae0264e91f708882ddbc43a0cff5003583ab543593e080fcd051408e5998f3cdf6
+  languageName: node
+  linkType: hard
+
+"@alwatr/type@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@alwatr/type@npm:1.2.0"
+  checksum: 6b6f76167be38eb62bcabdd204e56417339f17486d468a305acb592a119682dec702a507388be1732e9e7041eb78c6b02c1608098406413d4b59e6973491376c
   languageName: node
   linkType: hard
 
@@ -143,14 +162,14 @@ __metadata:
   dependencies:
     "@alwatr/fract": "workspace:^"
     "@alwatr/i18n": "workspace:^"
-    "@alwatr/signal": "npm:^2.0.2"
-    "@alwatr/type": "npm:^1.1.5"
-    "@alwatr/util": "npm:^1.2.10"
+    "@alwatr/signal": "npm:^2.0.3"
+    "@alwatr/type": "npm:^1.2.0"
+    "@alwatr/util": "npm:^1.3.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
 
-"@alwatr/util@npm:^1.2.10, @alwatr/util@npm:^1.2.9":
+"@alwatr/util@npm:^1.2.10":
   version: 1.2.10
   resolution: "@alwatr/util@npm:1.2.10"
   dependencies:
@@ -158,6 +177,19 @@ __metadata:
     "@alwatr/type": "npm:^1.1.5"
     tslib: "npm:^2.6.2"
   checksum: c7f345ad11634aba9900fd59da1eb69998a2b7484b08ed672a081b012965380f4b7075ec0f99a5e917eb455312942db15c4c0416829808b532d38e303f0972f6
+  languageName: node
+  linkType: hard
+
+"@alwatr/util@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@alwatr/util@npm:1.3.0"
+  dependencies:
+    "@alwatr/logger": "npm:^2.2.0"
+    "@alwatr/math": "npm:^1.2.0"
+    "@alwatr/type": "npm:^1.2.0"
+    "@alwatr/util": "npm:^1.3.0"
+    tslib: "npm:^2.6.2"
+  checksum: b07a09da5d8121e03130c53caf9c3d9398d52ec1fb9a88b813690def2766979fa977f12db44982770e1fe6b736e37f6973c0f69124a0b4b6d15311d5212278e7
   languageName: node
   linkType: hard
 
