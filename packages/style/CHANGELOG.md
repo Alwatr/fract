@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/Alwatr/fract/compare/@alwatr/style@2.0.0...@alwatr/style@2.0.1) (2023-11-15)
+
+### Bug Fixes
+
+* **style/color-scheme:** color scheme variables ([d5c7023](https://github.com/Alwatr/fract/commit/d5c7023feaf1face4697a528f5de4a480e592394)) by @
+
 # [2.0.0](https://github.com/Alwatr/fract/compare/@alwatr/style@1.3.0...@alwatr/style@2.0.0) (2023-11-15)
 
 ### Features
