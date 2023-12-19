@@ -32,8 +32,8 @@
     "url": "https://github.com/Alwatr/fract/issues"
   },
   "dependencies": {
-    "@alwatr/logger": "^2.4.0",
-    "@alwatr/signal": "^2.0.4",
+    "@alwatr/logger": "^2.4.1",
+    "@alwatr/signal": "^2.0.5",
     "@alwatr/style": "workspace:^",
     "lit-html": "^3.1.0",
     "tslib": "^2.6.2"
