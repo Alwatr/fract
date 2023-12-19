@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/Alwatr/fract/compare/@alwatr/i18n@2.0.1...@alwatr/i18n@2.0.2) (2023-12-19)
+
+### Bug Fixes
+
+* remove [@alwatr](https://github.com/alwatr) in definePackage ([42ea0d0](https://github.com/Alwatr/fract/commit/42ea0d05a9fccaa24d4e7357fae794ffa9755a1e)) by @njfamirm
+
 ## [2.0.1](https://github.com/Alwatr/fract/compare/@alwatr/i18n@2.0.0...@alwatr/i18n@2.0.1) (2023-11-15)
 
 **Note:** Version bump only for package @alwatr/i18n

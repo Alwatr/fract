@@ -1,6 +1,6 @@
 {
   "name": "@alwatr/i18n",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Elegant powerful translation module (i18n/l10n) with dynamic json storage written in tiny TypeScript, ES module.",
   "keywords": [
     "i18n",
