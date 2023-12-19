@@ -7,7 +7,7 @@ import {localeList} from './locale-list.js';
 import type {L10nResource, L10nResourceLoader, Locale} from './type.js';
 import type {LocaleCode} from '@alwatr/type';
 
-definePackage('@alwatr/i18n', '2.x');
+definePackage('i18n', '2.x');
 
 export class AlwatrL10n extends AlwatrObservable<LocaleCode> {
   protected _locale?: Locale;

@@ -16,7 +16,7 @@ import {preloadIcon} from './preload.js';
 
 export {preloadIcon};
 
-definePackage('@alwatr/icon', '1.x')
+definePackage('icon', '1.x')
 
 declare global {
   interface HTMLElementTagNameMap {
