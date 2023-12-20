@@ -115,7 +115,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/style@workspace:packages/style"
   dependencies:
-    tailwindcss: "npm:^3.3.7"
+    tailwindcss: "npm:^3.4.0"
     tslib: "npm:^2.6.2"
   languageName: unknown
   linkType: soft
@@ -3830,7 +3830,7 @@ __metadata:
     postcss-preset-env: "npm:^9.3.0"
     prettier: "npm:^3.1.1"
     prettier-plugin-tailwindcss: "npm:^0.5.9"
-    tailwindcss: "npm:^3.3.7"
+    tailwindcss: "npm:^3.4.0"
     ts-lit-plugin: "npm:^2.0.1"
     tslib: "npm:^2.6.2"
     typescript: "npm:^5.3.3"
@@ -10484,9 +10484,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.3.7":
-  version: 3.3.7
-  resolution: "tailwindcss@npm:3.3.7"
+"tailwindcss@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "tailwindcss@npm:3.4.0"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
     arg: "npm:^5.0.2"
@@ -10513,7 +10513,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 89c8610ae4c3e358bbc2bef255d6665d2e54527eb6f131e63e6e702003fa97c9ca14cae675f6760870863fcc46eada8f4b54aeb1a1ed5669a81c325b423a3db0
+  checksum: 0a1cef7468e6d17c2857d0b3c4017af2cb37ed8ba27dfb14780c517b8a74f6786970227c400ac1325fc8bcfc09099d8e990fa7c60924bf945f3d0a912d63f546
   languageName: node
   linkType: hard
 
