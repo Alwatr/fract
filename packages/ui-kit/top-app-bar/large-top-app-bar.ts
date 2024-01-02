@@ -3,7 +3,7 @@ import {html, nothing} from '@alwatr/fract';
 import {endIconListTemplate, type CenterTopAppBarContent} from './center-top-app-bar.js';
 import {iconButton} from '../icon-button/icon-button.js';
 
-export const centerTopAppBar = (content: CenterTopAppBarContent) =>
+export const largeTopAppBar = (content: CenterTopAppBarContent) =>
   html`<header
     class="scroll z-sticky flex h-16 shrink-0 grow-0 select-none items-center bg-surface px-1 text-surface [&.scroll]:bg-surfaceContainer"
   >
