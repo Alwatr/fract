@@ -3,6 +3,7 @@
 import {animationTheme} from './lib/animation.js';
 import {colorTheme, colorPlugin} from './lib/color-scheme.js';
 import {elevationPlugin} from './lib/elevation.js';
+import {safeAreaPlugin} from './lib/safe-area.js';
 import {screenTheme} from './lib/screen.js';
 import {stateLayerPlugin} from './lib/state-layer.js';
 import {translucentPlugin} from './lib/translucent.js';
@@ -22,5 +23,5 @@ export const tailwindConfig: Omit<Config, 'content'> = {
       ...animationTheme,
     },
   },
-  plugins: [colorPlugin, elevationPlugin, stateLayerPlugin, translucentPlugin],
+  plugins: [colorPlugin, elevationPlugin, stateLayerPlugin, translucentPlugin, safeAreaPlugin],
 };
