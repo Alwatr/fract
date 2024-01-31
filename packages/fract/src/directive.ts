@@ -2,7 +2,7 @@ import {createLogger, definePackage} from '@alwatr/logger';
 
 import {Directive, PartType, type PartInfo, type Part} from './lit-html.js';
 
-definePackage('fract', '1.x');
+definePackage('@alwatr/fract', '1.x');
 
 export abstract class AlwatrDirective extends Directive {
   protected _logger;
