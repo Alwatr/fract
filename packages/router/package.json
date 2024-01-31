@@ -1,6 +1,6 @@
 {
   "name": "@alwatr/router",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Elegant powerful router (fundamental advance browser page routing) based on the simplicity of the signals written in tiny TypeScript module.",
   "keywords": [
     "router",

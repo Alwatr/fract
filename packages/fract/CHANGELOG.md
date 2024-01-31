@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/Alwatr/fract/compare/@alwatr/fract@1.2.5...@alwatr/fract@1.2.6) (2024-1-31)
+
+### Bug Fixes
+
+* use [@alwatr](https://github.com/alwatr) scope in define package ([bb26d34](https://github.com/Alwatr/fract/commit/bb26d34d7c03b112e8ab1e3dabde88caab50d66b)) by @njfamirm
+
 ## [1.2.5](https://github.com/Alwatr/fract/compare/@alwatr/fract@1.2.4...@alwatr/fract@1.2.5) (2023-12-19)
 
 **Note:** Version bump only for package @alwatr/fract

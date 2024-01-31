@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/Alwatr/fract/compare/@alwatr/style@2.0.3...@alwatr/style@2.1.0) (2024-1-31)
+
+### Features
+
+* **style:** safe-area ([55ad864](https://github.com/Alwatr/fract/commit/55ad864aaed9acb1da394f0bc13e33e8ee715878)) by @AliMD
+
 ## [2.0.3](https://github.com/Alwatr/fract/compare/@alwatr/style@2.0.2...@alwatr/style@2.0.3) (2023-12-19)
 
 **Note:** Version bump only for package @alwatr/style

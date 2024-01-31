@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/Alwatr/fract/compare/@alwatr/router@2.0.3...@alwatr/router@2.0.4) (2024-1-31)
+
+### Bug Fixes
+
+* use [@alwatr](https://github.com/alwatr) scope in define package ([bb26d34](https://github.com/Alwatr/fract/commit/bb26d34d7c03b112e8ab1e3dabde88caab50d66b)) by @njfamirm
+
 ## [2.0.3](https://github.com/Alwatr/fract/compare/@alwatr/router@2.0.2...@alwatr/router@2.0.3) (2023-12-19)
 
 **Note:** Version bump only for package @alwatr/router
