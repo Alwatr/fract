@@ -55,7 +55,7 @@
     "@lerna-lite/version": "^3.2.1",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
-    "@web/dev-server": "^0.4.1",
+    "@web/dev-server": "^0.4.2",
     "autoprefixer": "^10.4.17",
     "esbuild": "^0.20.0",
     "eslint": "^8.56.0",
@@ -75,5 +75,5 @@
     "typescript": "^5.3.3",
     "workbox-build": "^7.0.0"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.1.0"
 }
