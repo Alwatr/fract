@@ -1,7 +1,6 @@
-// import {join, dirname} from 'node:path';
-
 import {animationTheme} from './lib/animation.js';
 import {colorTheme, colorPlugin} from './lib/color-scheme.js';
+import {containPlugin, containTheme} from './lib/contain.js';
 import {directionPlugin} from './lib/direction.js';
 import {elevationPlugin} from './lib/elevation.js';
 import {safeAreaPlugin} from './lib/safe-area.js';
@@ -22,7 +21,16 @@ export const tailwindConfig: Omit<Config, 'content'> = {
       ...zIndexTheme,
       ...screenTheme,
       ...animationTheme,
+      ...containTheme,
     },
   },
-  plugins: [colorPlugin, elevationPlugin, stateLayerPlugin, translucentPlugin, safeAreaPlugin, directionPlugin],
+  plugins: [
+    colorPlugin,
+    elevationPlugin,
+    stateLayerPlugin,
+    translucentPlugin,
+    safeAreaPlugin,
+    directionPlugin,
+    containPlugin,
+  ],
 };
