@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.7](https://github.com/Alwatr/fract/compare/@alwatr/fract@1.2.6...@alwatr/fract@1.2.7) (2024-02-07)
+
+**Note:** Version bump only for package @alwatr/fract
+
 ## [1.2.6](https://github.com/Alwatr/fract/compare/@alwatr/fract@1.2.5...@alwatr/fract@1.2.6) (2024-1-31)
 
 ### Bug Fixes

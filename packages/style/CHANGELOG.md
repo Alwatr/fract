@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/Alwatr/fract/compare/@alwatr/style@2.1.0...@alwatr/style@2.2.0) (2024-02-07)
+
+### Bug Fixes
+
+* **style:** remove an extra variable ([b543dd1](https://github.com/Alwatr/fract/commit/b543dd10341095b80a0ba3efce0aa99c514143a0)) by @mohammadhonarvar
+
+### Features
+
+* **style:** add `contain` plugin ([ff9de60](https://github.com/Alwatr/fract/commit/ff9de6030e942f37a99e299e333ad571ed2d7420)) by @mohammadhonarvar
+* **style:** add a new `rtl` variant ([86b8f68](https://github.com/Alwatr/fract/commit/86b8f680dd10631b59173a4ba7f43c03e2868baf)) by @mohammadhonarvar
+* **style:** enhance html/:host root styles ([eca148a](https://github.com/Alwatr/fract/commit/eca148a689f6b9f1a53769dd74cd574e770a01c1)) by @AliMD
+
 # [2.1.0](https://github.com/Alwatr/fract/compare/@alwatr/style@2.0.3...@alwatr/style@2.1.0) (2024-1-31)
 
 ### Features
